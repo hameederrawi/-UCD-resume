@@ -1,28 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------------------Colors*/
-
-.bg-color-name-title {
+/* -----------------------------------Colours */
+.bg-color-name-title{
     background-color: #676767;
-}
 
+}
 .ui-menu-color-home {
-    background-color: #e67e22;
-}
+    background: #e67e22;
 
+}
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background: #9b59b6;
+    
 }
-
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background: #3498db;
+    
 }
-
 .ui-menu-color-download {
-    background-color: #525252;
+    background: #525252;
+    
 }
-
-/* ----------------------------------------Special paddings/margins/text */
+/* -----------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -30,7 +29,6 @@ h3,
 h4 {
     margin: 0;
 }
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -39,21 +37,21 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
-}
 
+}
 .inline-block {
     display: inline-block;
-}
 
-/*--------------------------------------------Heading*/
+}
+/* -----------------------------------Heading */
 
 header {
     margin: 0;
 }
-
 .heading {
     margin-left: 50px;
 }
+
 
 .logo {
     background: url("../images/rosie.jpg");
@@ -81,45 +79,38 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
-}
 
+}
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
-
 .menucontainer {
     font-size: 0;
+}
+#nav {
+    margin: 0;
 }
 
 #nav li {
     font-size: 14px;
     padding: 0;
 }
-
-#nav {
-    margin: 0;
-}
-
 .menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
-
 .menuitem a {
     width: 100%;
-    text-decoration: none;
     color: #fff;
     height: 120px;
 }
-
 .menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
-
 .menuitem span {
     display: block;
     width: 100%;
@@ -129,16 +120,16 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
-}
 
-/*--------------------------------------------Hover.css*/
+}
+/* -----------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/* ----------------------------------------Footer */
+/* -----------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -147,19 +138,25 @@ footer {
     margin: 0;
 }
 
+#footer-details {
+    padding: 20px;
+}
+
 .cv-pdf i {
     font-size: 18px;
     color: #fafafa;
     text-align: center;
-    padding-left: 5px;
+    scroll-padding-left: 5px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+
 }
 
 .cv-pdf i:hover {
     color: #e84610;
+
 }
 
 .social-links {
@@ -185,7 +182,9 @@ footer {
 .social-links li a i:hover {
     background: #e84610;
 }
+.container-fluid {
 
-#footer-details {
-    padding: 20px;
+}
+.uppercase general-sub {
+
 }
